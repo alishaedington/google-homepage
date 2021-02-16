@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -155,7 +160,7 @@ button:hover {
 
 #page-container {
   position: relative;
-  min-height: calc(100vh - 47px);
+  min-height: 65vh;
 }
 
 #content-wrap {
