@@ -5,40 +5,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-<div id="header">
-    <div id="header-left">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-        </ul>
+    <div id="header">
+        <div id="header-left">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        <div id="header-right">
+            <ul>
+                <li style="float:right1"><a href="#">Gmail</a></li>
+                <li style="float:right2"><a href="#">Images</a></li>
+                <li style="float:right3"><a href="#"><img class="app-image"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAIHUlEQVR4nO1dLdKDOhTNCrBVaCQLwOGQKBSmpguox3YFncEhsF1AFsAGUNgYPCKGmczcJ96Ux29bknv5MvM4MxGfKQdOvvzc3HPD4IRVYH9N4MQUPwvSti1wzqEoCsjzHIqiAM45tG1LyW8Tfd9DVVVQluXA5/V6QdM0f8IHi9NHQZRSwDmHMAyBMbbZoiiCqqpAKWX8Ut8ghID7/f6Rj+u6kOc5dF1HzgcAoK7rr5wulwsURfGV06YgbdvC7Xb7+JB5u16vpB8hz/NdfHzfh6qqyPgopeD5fO7iFATBR06rggghdj1k3juxhw2lFFyvV21OeZ6j8gEAkFJCmqbanF6v1+rvLgRp21b7Ie/mOA7q3PJtODD5ALpIksSYE+d88bsTQZRSRqqPW5qmKHNKWZYofBhjIIQw5oPJ6XK5LDgxigdh9UohBLiui8YnjmMjPgA4I8gnThNBLpcL6sOiKIK+77Vffu+E+Uur61qbDwDA4/FA5zSecwdB6rpGf5DpB3AcB53P4/HQ5iOlhCAI0Dk9n8+lIBS9kTEGZVlqvTz20PBurutqC0LVaa/X6zCSDIJkWUbysCzLtF6+qioSPozpR4uoOPm+D1LK/wRRSqEsLdfa7XbTennOOZkguvMaFafL5TJsqIfuQiXI/X636uUZY9rLcSpOrusuBaFYPTCmP4lSjdeM2TdkhWE4HbIAAF6vF8nD1najv4KCj8leRAgBnuehcxqPIoMgXdehP8jzPKPdMUZ4Yt5MN6vUnCb/v3Ecoz5Id0J/A3vM9jzPOMZGMY+M57SJICZR3rWGEWDEiq0xhhP1VUqhdtz5Pm0xw+09c9hqRVEYvzwAXieJomiYOE3RNA0KpzRNF0vw1SWH6RJYd6m7BdPVDfZxAID5Isj3/dXDvM01oO7OfRyXwURVVVqR3yRJyM79OedaAdkkSTZPVj8uyvd8BM/zSI9LAf6Nb+2ZU57PJ9owtQUhxK6VV57nHyMFP+2SOOeQZdki0hmGIWRZRi7EHE3TwPP5hCRJJhFhz/PgdrtBWZaHJTjMOcVxvOB0v9+hLMufOseubauUErquGxp17/uGvu8nnKSUh2S+UHI6E+UswymIZTgFsQynIJbhFMQynIJYhlMQy3AKYhlOQSzDKYhlOAWxDKcgluFnQaSU0DQN1HUNdV1D0zR/5i98Qwgx8KnrGoQQfx5cXOO0B18FEUJAlmUQRdHkMMZxHAiCANI0Bc65UZb7HkgpoSgKSJIEfN9fnMnEcQzP5/PQ8HvXdQOneZqQ53mQJMnPnDYF6bpu16lhEATGqf7fsPfYlOr0coy9nppvyeergjRNo22UofDz9X2v7TH8dFxqAhOPYRzHmyPKQhAhhLFxB7NnKqV2u4HnLYoi9LnFNBUojuNVThNBuq5bjMu6DetYFyvn2DRpbwws68Zads5EEMyE67HnQRfYCdcYnYSa0yCIlBL1QYyZ59GaeNPXWpIkRnwoOIVhOPn9QZCiKNAFCcNQe+ym6CCMmXkem6Yh8T2O9yqkhh2Tqg5U5hhdz+NRnBgAnbuUMf1xm8qEapLmeoSpiQH8u7rC9qi/m65hh+rl52P2Hpguv3/pJKcgNgryfxqyTPYjVNbxxZCFsRtea5fLRXtSp/I8mvhWjuBEWskhDEPtKDCF55Exs80hlTN4tdYJxQcwdVFhex4xYlrYpk/f9ye/PwmdYO5FxmZ4XWD7wk0s2kdxWgQXsXzYWBXcsCZSjLDJG1jz7doCYxF+xxgndQvOrAHD9RoEAeqZiFLqa6XWXzitza+rB1RVVWnHbDDFeENKqf0BwjBEK+03Rtu2EEWRFqctwyfAhyNcIcSuEzHHcVDG6C0opXZbtrMsIz3rV0rt3sA+Hg8zj2FVVXC9XlcPrlzXhTiOfyoQjIW2bYeki7X/4iAI4H6/H1rh+p0IEobhKqe3F/OX/9RdpcbruoaqqobWNM1h2SZzvNOSxnzquj7c7DlG13XGnM5EOctwCmIZTkEswymIZTgFsQynIJbhFMQynIJYhlMQy3AKYhlOQSzDKYhlOAuYWcZpV4m/eQj+r0v8rZXT+8sSf4/Hg7bEX1VVP2c0HlEEc2/ByaOKYO45Yi6KQu+AysYysTrprmmakpaJ1TnqTpJks6OsCmJqSsEupGxqA8BISZrD9Ea7rcSLhSBYGYwmPowxsMp6J0mCdrqJlcF4vV4XE/5EEKyXfzfToYK68L0O+r7XzjZZa/P8tYkgmA9izHzownYs+b5v3EkoEq7HGP6iuKbO9ANgdxDGzNNJsfON55wGQbCvXX033aVw3/ckfNI01RbDpMLFpzZOLiS/FEx3Gfx/usdwXGqD/B5D3XmEyhxjIgiVC9fzvOXFkkf452wRRDfeRcVp9R7DI/xze0B5saQuqDit3mNIZbLU9YlgX1D2bnPH0h5QWdput9vwXzsIQjVhmZSyoOBjEmujciuPa4yRXnC/VRPqV1Cs/Eyr3lEM7au1TgDw9yKmmzCMYmrjZrIHGXPC/EZzThNB+r5H24liFQzDrFKEFYbH4uS67oLTaok/0wc5joMW7sZakmOZUN/A6LhrI8hmEUwT1bE9fX3fG13BinXr6BhSSiNRtjrI5qK8bdvdB1W3243syFQptXtp7vs+aelaHU5hGH7k9HGXpJQCzvlXB2wURYclOjRN83UIc133UN9jXddfQ0+u6/6U6LDLY8g5h6IoIM9zKIoCOOd/5ulTSkFVVVCW5cDn9XodavacQ0q5ymnPEH4mylmGUxDL8A+8LmJ3MiculgAAAABJRU5ErkJggg=="
+                            alt="Apps"></a></li>
+                <li style="float:right4"><a href="#"><button id="sign-in-button" type="submit">Sign In</button></a></li>
+            </ul>
+        </div>
     </div>
-    <div id="header-right">
-        <ul>
-            <li style="float:right1"><a href="#">Gmail</a></li>
-            <li style="float:right2"><a href="#">Images</a></li>
-            <li style="float:right3"><a href="#"><img class="app-image"
-                src="data:image/png;base64,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"
-                alt="Apps"></a></li>
-            <li style="float:right4"><a href="#"><button id="sign-in-button" type="submit">Sign In</button></a></li>
-        </ul>
-    </div>
-</div>
 </header>
+
 <body>
     <div id="page-container">
         <div id="content-wrap">
             <div class="google-image">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="Google logo">
             </div>
             <div class="wrapper">
-                <input class="search" type="text" >
-                <img class="clear-icon" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-              </div> 
+                <input class="search" type="text">
+                <img class="clear-icon"
+                    src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+            </div>
             <div id="button-bar">
                 <div>
                     <a href="#"><button id="search-button" type="submit">Google Search</button></a>
                 </div>
-                <div >    
+                <div>
                     <a href="#"><button id="lucky-button" type="submit">I'm Feeling Lucky</button></a>
                 </div>
             </div>
@@ -55,8 +58,8 @@
                 <div id="footer-center">
                     <ul>
                         <li><img class="leaf-image"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
-                            alt="Leaf image"><a href="#">Carbon neutral since 2007</a></li>
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+                                alt="Leaf image"><a href="#">Carbon neutral since 2007</a></li>
                     </ul>
                 </div>
                 <div id="footer-right">
