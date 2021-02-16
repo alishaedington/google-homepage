@@ -47,6 +47,10 @@ li {
   border-style: solid;
 }
 
+input:hover {
+  border-color: rgb(193, 194, 196);
+}
+
 #button-bar {
   width: 100%;
   height: 36px;
